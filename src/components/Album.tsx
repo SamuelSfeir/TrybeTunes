@@ -23,7 +23,7 @@ function Album() {
           // Filtra as músicas da lista, se houver
           const songs = musicsData.filter((item) => 'trackName' in item) as SongType[];
 
-          // Obtém o nome do artista do primeiro álbum (pode ajustar conforme necessário)
+          // Obtém o nome do artista do primeiro álbum
           const firstAlbum = musicsData.find((item) => 'collectionName' in item) as
           AlbumType;
           const artist = firstAlbum?.artistName;
@@ -57,10 +57,10 @@ function Album() {
 
       <h2>Músicas do Álbum</h2>
 
-      {/* Exibe a mensagem "Carregando..." durante a carga */}
+      {/* Exibe a mensagem "Carregando..." durante o carregamento */}
       {isLoading && <p>Carregando...</p>}
 
-      {/* Exibe a lista de músicas após a carga */}
+      {/* Exibe a lista de músicas após o carregamento */}
       {!isLoading && (
         <div>
           {musics.map((music, index) => (
