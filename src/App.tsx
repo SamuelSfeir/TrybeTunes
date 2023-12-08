@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Login from './components/Login';
 import Search from './components/Search';
+import Album from './components/Album';
 
 function App() {
   const handleLoginSuccess = () => {
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route index element={ <Login onLoginSuccess={ handleLoginSuccess } /> } />
       <Route path="search" element={ <Search /> } />
+      <Route path="album/:id" element={ <Album /> } />
     </Routes>
   );
 }
