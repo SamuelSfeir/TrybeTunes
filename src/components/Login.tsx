@@ -43,7 +43,7 @@ function Login({ onLoginSuccess }: LoginProps) {
 
   return (
     <div>
-      <h2>Login</h2>
+      <h2 className="bg-blue-500 text-white p-4">Login</h2>
       <form onSubmit={ handleSubmit }>
         {/* Input para o nome de usuário */}
         <label>

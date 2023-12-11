@@ -21,7 +21,8 @@
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
     "dev": "vite --open",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:css": "tailwindcss build src/components/index.css -o output.css"
   },
   "browserslist": {
     "production": [
