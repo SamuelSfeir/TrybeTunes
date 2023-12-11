@@ -4,7 +4,6 @@ import Login from './components/Login';
 import Search from './components/Search';
 import Album from './components/Album';
 import Favorites from './components/Favorites';
-
 import Layout from './components/Layout';
 
 function App() {
