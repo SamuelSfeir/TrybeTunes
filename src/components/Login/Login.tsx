@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { createUser } from '../../services/userAPI';
+import './index.css';
 
 type LoginProps = {
   onLoginSuccess: () => void;
@@ -42,8 +43,8 @@ function Login({ onLoginSuccess }: LoginProps) {
   };
 
   return (
-    <div>
-      <h2 className="bg-blue-500 text-white p-4">Login</h2>
+    <div className="container">
+      <h2>Login</h2>
       <form onSubmit={ handleSubmit }>
         {/* Input para o nome de usuário */}
         <label>
@@ -57,7 +58,7 @@ function Login({ onLoginSuccess }: LoginProps) {
         </label>
 
         {isLoading ? (
-          <p>Carregando...</p>
+          <p className="loading-message">Carregando...</p>
         ) : (
           <button
             type="submit"
