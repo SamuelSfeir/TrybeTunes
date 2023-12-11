@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import getMusics from '../services/musicsAPI';
-import { SongType, AlbumType } from '../types';
-import MusicCard from './MusicCard';
+import getMusics from '../../services/musicsAPI';
+import { SongType, AlbumType } from '../../types';
+import MusicCard from '../MusicCard';
 
 function Album() {
   const { id } = useParams<{ id?: string }>();

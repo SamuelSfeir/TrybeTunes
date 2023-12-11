@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import React from 'react';
-import Login from './components/Login';
-import Search from './components/Search';
-import Album from './components/Album';
-import Favorites from './components/Favorites';
-import Layout from './components/Layout';
+import Login from './components/Login/Login';
+import Search from './components/Search/Search';
+import Album from './components/Album/Album';
+import Favorites from './components/Favorites/Favorites';
+import Layout from './components/Layout/Layout';
 
 function App() {
   const handleLoginSuccess = () => {

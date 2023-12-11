@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { getUser } from '../services/userAPI';
+import { getUser } from '../../services/userAPI';
 
 function Header() {
   const [userName, setUserName] = useState<string | null>(null);

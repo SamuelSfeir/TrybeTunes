@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import searchAlbumsAPI from '../services/searchAlbumsAPI';
-import { AlbumType } from '../types';
+import searchAlbumsAPI from '../../services/searchAlbumsAPI';
+import { AlbumType } from '../../types';
 
 function Search() {
   // Estados para controlar o nome do artista, desabilitar botão, resultado da busca, álbuns e mensagem de nenhum álbum
