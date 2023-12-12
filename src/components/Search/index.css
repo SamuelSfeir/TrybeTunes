@@ -1,0 +1,50 @@
+/* Search.css */
+
+/* Estilos para o contêiner principal da rota de pesquisa */
+.container-search {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  /* Estilos para o formulário de pesquisa */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o título da seção de álbuns */
+  h3 {
+    font-size: 24px;
+    color: #297fb8;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para a lista de álbuns */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilos para cada item da lista de álbuns */
+  li {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para o link de navegação para cada álbum */
+  a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #297fb8;
+  }
+  

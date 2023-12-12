@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import getMusics from '../../services/musicsAPI';
 import { SongType, AlbumType } from '../../types';
 import MusicCard from '../MusicCard';
+import './index.css';
 
 function Album() {
   const { id } = useParams<{ id?: string }>();
@@ -48,7 +49,7 @@ function Album() {
   }, [id]);
 
   return (
-    <div>
+    <div className="container-album">
       {/* Exibe o nome do artista */}
       {artistName && <p data-testid="artist-name">{artistName}</p>}
 
@@ -58,11 +59,11 @@ function Album() {
       <h2>Músicas do Álbum</h2>
 
       {/* Exibe a mensagem "Carregando..." durante o carregamento */}
-      {isLoading && <p>Carregando...</p>}
+      {isLoading && <p className="loading-message">Carregando...</p>}
 
       {/* Exibe a lista de músicas após o carregamento */}
       {!isLoading && (
-        <div>
+        <div className="music-list">
           {musics.map((music, index) => (
             <MusicCard
               key={ index }

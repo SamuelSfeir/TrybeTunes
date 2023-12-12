@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import searchAlbumsAPI from '../../services/searchAlbumsAPI';
 import { AlbumType } from '../../types';
+import './index.css';
 
 function Search() {
   // Estados para controlar o nome do artista, desabilitar botão, resultado da busca, álbuns e mensagem de nenhum álbum
@@ -45,10 +46,10 @@ function Search() {
   };
 
   return (
-    <div>
+    <div className="container-search">
       <form onSubmit={ handleSearchClick }>
         <label>
-          Nome do artista
+          Nome do artista:
           <input
             type="text"
             data-testid="search-artist-input"
