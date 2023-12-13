@@ -65,12 +65,13 @@ function Album() {
       {!isLoading && (
         <div className="music-list">
           {musics.map((music, index) => (
-            <MusicCard
-              key={ index }
-              trackName={ music.trackName }
-              previewUrl={ music.previewUrl }
-              trackId={ music.trackId }
-            />
+            <div key={ index } className="music-card">
+              <MusicCard
+                trackName={ music.trackName }
+                previewUrl={ music.previewUrl }
+                trackId={ music.trackId }
+              />
+            </div>
           ))}
         </div>
       )}

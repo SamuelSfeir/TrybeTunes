@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { getUser } from '../../services/userAPI';
+import './index.css';
 
 function Header() {
   const [userName, setUserName] = useState<string | null>(null);
@@ -32,7 +33,7 @@ function Header() {
 
       {/* Exibe o nome do usuário se disponível */}
       {userName && (
-        <p data-testid="header-user-name">
+        <p data-testid="header-user-name" className="nome">
           Bem-vindo,
           {' '}
           {userName}
@@ -41,15 +42,17 @@ function Header() {
       )}
 
       {/* Links de navegação */}
-      <NavLink to="/search" data-testid="link-to-search">
-        Search
-      </NavLink>
-      <NavLink to="/favorites" data-testid="link-to-favorites">
-        Favorites
-      </NavLink>
-      <NavLink to="/profile" data-testid="link-to-profile">
-        Profile
-      </NavLink>
+      <div className="navbar">
+        <NavLink to="/search" data-testid="link-to-search" className="white-link">
+          Search
+        </NavLink>
+        <NavLink to="/favorites" data-testid="link-to-favorites" className="white-link">
+          Favorites
+        </NavLink>
+        <NavLink to="/profile" data-testid="link-to-profile" className="white-link">
+          Profile
+        </NavLink>
+      </div>
     </header>
   );
 }

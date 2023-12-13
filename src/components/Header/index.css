@@ -1,0 +1,49 @@
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos para a mensagem "Carregando..." durante o carregamento */
+  header p {
+    font-style: italic;
+  }
+  
+  /* Estilos para o nome do usuário */
+  p[data-testid="header-user-name"] {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para os links de navegação */
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f5f5f5;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos para os links de navegação específicos com a classe white-link */
+  .white-link {
+    color: #fff;
+    margin-right: 15px; /* Adicione margem à direita para separar os links */
+  }
+  
