@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import searchAlbumsAPI from '../../services/searchAlbumsAPI';
 import { AlbumType } from '../../types';
-import './index.css'; // Importe o arquivo de estilo
+import './index.css';
 
 function Search() {
   const [isButtonDisabled, setIsButtonDisabled] = useState(true);

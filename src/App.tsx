@@ -5,6 +5,8 @@ import Search from './components/Search/Search';
 import Album from './components/Album/Album';
 import Favorites from './components/Favorites/Favorites';
 import Layout from './components/Layout/Layout';
+import Profile from './components/Profile/Profile';
+import ProfileEdit from './components/ProfileEdit/ProfileEdit';
 
 function App() {
   const handleLoginSuccess = () => {
@@ -19,6 +21,8 @@ function App() {
         <Route path="search" element={ <Search /> } />
         <Route path="album/:id" element={ <Album /> } />
         <Route path="favorites" element={ <Favorites /> } />
+        <Route path="profile" element={ <Profile /> } />
+        <Route path="profile/edit" element={ <ProfileEdit /> } />
       </Route>
     </Routes>
   );

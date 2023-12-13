@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import checkedHeartImage from '../images/checked_heart.png';
 import emptyHeartImage from '../images/empty_heart.png';
+import './MusicCard.css'; // Importe o arquivo de estilo
 
 type MusicCardProps = {
   trackName: string;
@@ -16,7 +17,7 @@ function MusicCard({ trackName, previewUrl, trackId }: MusicCardProps) {
   };
 
   return (
-    <div>
+    <div className="music-card-container">
       <p>{trackName}</p>
       <audio controls data-testid="audio-component">
         <source src={ previewUrl } type="audio/mp3" />
@@ -29,7 +30,6 @@ function MusicCard({ trackName, previewUrl, trackId }: MusicCardProps) {
         htmlFor={ `checkbox-music-${trackId}` }
         data-testid={ `checkbox-music-${trackId}` }
       >
-        <img src={ isFavorite ? checkedHeartImage : emptyHeartImage } alt="favorite" />
         <input
           id={ `checkbox-music-${trackId}` }
           type="checkbox"

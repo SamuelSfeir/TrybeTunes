@@ -40,28 +40,31 @@ p.loading-message {
 
 /* Estilos para a lista de músicas */
 .music-list {
-  display: grid;
+  display:contents;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 15px;
 }
 
 /* Estilos para cada card de música */
 .music-card {
-  background-color: #f5f5f5;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    background-color: #f5f5f5;
+    padding: 10px; /* Reduzir o padding para diminuir o tamanho do contêiner */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 20px); /* Ajusta a largura para considerar o padding (15px + 5px de cada lado) */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    margin-bottom: 50px;
+  }
 
 /* Estilos para o nome da música */
 .music-card h3 {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 8px;
 }
 
 /* Estilos para o botão de reprodução da música */
 .music-card button {
-  padding: 10px;
+  padding: 8px;
   background-color: #3498db;
   color: #fff;
   border: none;
@@ -73,3 +76,8 @@ p.loading-message {
 .music-card button:hover {
   background-color: #297fb8;
 }
+
+.music-card h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }

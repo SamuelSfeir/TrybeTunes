@@ -46,9 +46,6 @@ function Header() {
         <NavLink to="/search" data-testid="link-to-search" className="white-link">
           Search
         </NavLink>
-        <NavLink to="/favorites" data-testid="link-to-favorites" className="white-link">
-          Favorites
-        </NavLink>
         <NavLink to="/profile" data-testid="link-to-profile" className="white-link">
           Profile
         </NavLink>
