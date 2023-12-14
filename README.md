@@ -9,7 +9,7 @@
 This is a project where it allows users to search and discover their favorite music.
 
 ## Online Access
-You can try the project online [by clicking here](https://trybe-tunes-89gn23c36-samuelsfeirs-projects.vercel.app/).
+You can try the project online [by clicking here](https://trybe-tunes-samuelsfeirs-projects.vercel.app/).
 
 ## Project Structure
 - **src/components:** Reusable React components.
