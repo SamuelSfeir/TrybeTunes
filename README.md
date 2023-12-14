@@ -45,7 +45,7 @@ Contributions are welcome! Feel free to open issues and submit pull requests.
 Este é um projeto onde permite aos usuários pesquisar e descobrir suas músicas favoritas.
 
 ## Acesso Online
-Você pode experimentar o projeto online [clicando aqui](https://trybe-tunes-89gn23c36-samuelsfeirs-projects.vercel.app/).
+Você pode experimentar o projeto online [clicando aqui](https://trybe-tunes-samuelsfeirs-projects.vercel.app/).
 
 ## Estrutura do Projeto
 - **src/components:** Componentes React reutilizáveis.
