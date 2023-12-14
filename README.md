@@ -3,6 +3,9 @@
 ## Descrição
 Este é um projeto onde permite aos usuários pesquisar e descobrir suas músicas favoritas.
 
+## Acesso Online
+Você pode experimentar o projeto online [clicando aqui](https://trybe-tunes-89gn23c36-samuelsfeirs-projects.vercel.app/).
+
 ## Funcionalidades
 - **Página de Login:** Os usuários podem fazer login para acessar funcionalidades exclusivas.
 - **Pesquisa de Músicas:** Explore e encontre suas músicas favoritas.
