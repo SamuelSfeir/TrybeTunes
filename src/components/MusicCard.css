@@ -1,4 +1,3 @@
-/* Estilos para o contêiner principal do MusicCard */
 .music-card-container {
     border: 1px solid #ddd;
     padding: 10px;
@@ -8,49 +7,41 @@
     margin-bottom: 1px;
   }
   
-  /* Estilos para o nome da música */
   .music-card-container p {
     font-size: 20px;
     margin-bottom: 8px;
     margin-left: 13px;
   }
   
-  /* Estilos para o player de áudio */
+
   .music-card-container audio {
     width: 100%;
     margin-bottom: 8px;
   }
-  
-  /* Estilos para a imagem do coração */
+
   .music-card-container img {
     width: 20px;
     height: 20px;
     margin-left: 10px;
   }
   
-  /* Estilos para o checkbox */
   .music-card-container input[type="checkbox"] {
-    display: none; /* Esconde o checkbox padrão */
+    display: none;
   }
-  
-  /* Estilos para o rótulo do checkbox (contém a imagem e o checkbox oculto) */
+
   .music-card-container label {
     display: flex;
     align-items: center;
     cursor: pointer;
   }
   
-  /* Estilos para o rótulo quando o checkbox está marcado */
   .music-card-container input[type="checkbox"]:checked + label img {
-    /* Adicione estilos específicos para quando o checkbox estiver marcado */
-    filter: grayscale(0); /* Remove a escala de cinza (imagem colorida) */
+    filter: grayscale(0);
     margin-right: 15px;
   }
   
-  /* Estilos para o rótulo quando o checkbox não está marcado */
   .music-card-container input[type="checkbox"] + label img {
-    /* Adicione estilos específicos para quando o checkbox não estiver marcado */
-    filter: grayscale(1); /* Aplica escala de cinza à imagem */
+    filter: grayscale(1);
     margin-right: 15px;
   }
   

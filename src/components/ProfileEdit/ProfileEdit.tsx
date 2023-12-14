@@ -1,10 +1,9 @@
-// ProfileEdit.tsx
 import React, { useState, useEffect } from 'react';
 import { getUser, updateUser } from '../../services/userAPI';
 import './ProfileEdit.css';
 
 function ProfileEdit() {
-  const [userData, setUserData] = useState<any>(null); // Ajuste conforme sua API retorna
+  const [userData, setUserData] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
@@ -25,7 +24,6 @@ function ProfileEdit() {
 
   const handleFormSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
-    // Adicione a lógica para enviar os dados do formulário para a API de atualização
     try {
       // Atualiza o usuário com os dados do formulário
       await updateUser(userData);

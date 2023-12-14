@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import checkedHeartImage from '../images/checked_heart.png';
-import emptyHeartImage from '../images/empty_heart.png';
-import './MusicCard.css'; // Importe o arquivo de estilo
+import './MusicCard.css';
 
 type MusicCardProps = {
   trackName: string;

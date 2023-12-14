@@ -1,6 +1,3 @@
-/* Login.css */
-
-/* Estilos para o contêiner principal */
 .container {
     max-width: 400px;
     margin: 0 auto;
@@ -9,13 +6,11 @@
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-top: 250px;
-    display: flex;  /* Adicionando display flex para alinhar os itens verticalmente */
-    flex-direction: column; /* Alinhar os itens verticalmente */
+    display: flex;
+    flex-direction: column;
     
   }
-  
-  
-  /* Estilos para o cabeçalho */
+
   h2 {
     font-size: 30px;
     color: #297fb8;
@@ -29,22 +24,19 @@
 
 h2:hover {
   transform: scale(1.1);
-  margin-bottom: 12px; /* Ajuste o valor conforme necessário */
+  margin-bottom: 12px;
 }
   
-  /* Estilos para o formulário */
   form {
     display: flex;
     flex-direction: column;
   }
   
-  /* Estilos para as etiquetas de input */
   label {
     margin-bottom: 8px;
     font-weight: bold;
   }
   
-  /* Estilos para o input */
   input {
     padding: 12px;
     margin-bottom: 16px;
@@ -58,7 +50,6 @@ h2:hover {
     border-color: #297fb8;
   }
   
-  /* Estilos para o botão */
   button {
     padding: 14px;
     background-color: #3498db;
@@ -78,7 +69,6 @@ h2:hover {
     background-color: #297fb8;
   }
   
-  /* Estilos para a mensagem de carregamento */
   p.loading-message {
     text-align: center;
     font-style: italic;
@@ -86,7 +76,6 @@ h2:hover {
     margin-top: 16px;
   }
   
-  /* Adicionando estilos para o link de navegação */
   a {
     color: #3498db;
     text-decoration: none;
