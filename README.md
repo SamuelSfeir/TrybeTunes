@@ -6,7 +6,7 @@
 # Trybe Tunes
 
 ## Description
-This is a project where it allows users to search and discover their favorite music.
+This is a project where it allows users to search and discover their favorite music in a dynamic way
 
 ## Online Access
 You can try the project online [by clicking here](https://trybe-tunes-samuelsfeirs-projects.vercel.app/).
@@ -42,7 +42,7 @@ Contributions are welcome! Feel free to open issues and submit pull requests.
 # Trybe Tunes
 
 ## Descrição
-Este é um projeto onde permite aos usuários pesquisar e descobrir suas músicas favoritas.
+Este é um projeto onde permite aos usuários pesquisar e descobrir suas músicas favoritas de uma maneira dinâmica
 
 ## Acesso Online
 Você pode experimentar o projeto online [clicando aqui](https://trybe-tunes-samuelsfeirs-projects.vercel.app/).
