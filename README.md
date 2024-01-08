@@ -66,7 +66,7 @@ Você pode experimentar o projeto online [clicando aqui](https://trybe-tunes-sam
 - API de Usuários
 
 ## Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar pull requests.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
 
   </details>
 
