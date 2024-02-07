@@ -26,8 +26,7 @@ You can acess the project online [by clicking here](https://trybe-tunes-samuelsf
 - React
 - React Router
 - TypeScript
-- Music API
-- User API
+- Music and User API
 
 ## Contribution
 Contributions are welcome! Feel free to open issues and submit pull requests.
